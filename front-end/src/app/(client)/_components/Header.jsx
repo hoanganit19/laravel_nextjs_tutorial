@@ -12,7 +12,7 @@ export default async function Header() {
           <>
             <li>Chào bạn: {user.name}</li>
             <li>
-              <a href="#">Đăng xuất</a>
+              <a href="/auth/logout">Đăng xuất</a>
             </li>
           </>
         ) : (

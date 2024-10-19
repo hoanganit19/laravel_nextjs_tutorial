@@ -3,6 +3,7 @@ const nextConfig = {
   env: {
     SERVER_API: process.env.SERVER_API,
     APP_URL: process.env.APP_URL,
+    SESSION_SECRET: process.env.SESSION_SECRET,
   },
 };
 
